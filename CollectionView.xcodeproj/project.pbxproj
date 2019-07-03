@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3F411320AD6AA5008991AA /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F411220AD6AA5008991AA /* ImageViewController.swift */; };
 		CE3FD5BE20ACC62C00720923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FD5BD20ACC62C00720923 /* AppDelegate.swift */; };
 		CE3FD5C020ACC62C00720923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FD5BF20ACC62C00720923 /* ViewController.swift */; };
 		CE3FD5C320ACC62C00720923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FD5C120ACC62C00720923 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		CE3FD5C820ACC62F00720923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FD5C620ACC62F00720923 /* LaunchScreen.storyboard */; };
 		CE3FD5D320ACC62F00720923 /* CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FD5D220ACC62F00720923 /* CollectionViewTests.swift */; };
 		CE3FD5DE20ACC62F00720923 /* CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FD5DD20ACC62F00720923 /* CollectionViewUITests.swift */; };
+		CE3FD5EC20ACC7BF00720923 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FD5EB20ACC7BF00720923 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE3F411220AD6AA5008991AA /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		CE3FD5BA20ACC62C00720923 /* CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3FD5BD20ACC62C00720923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3FD5BF20ACC62C00720923 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		CE3FD5D920ACC62F00720923 /* CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3FD5DD20ACC62F00720923 /* CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewUITests.swift; sourceTree = "<group>"; };
 		CE3FD5DF20ACC62F00720923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3FD5EB20ACC7BF00720923 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				CE3FD5BD20ACC62C00720923 /* AppDelegate.swift */,
 				CE3FD5BF20ACC62C00720923 /* ViewController.swift */,
 				CE3FD5C120ACC62C00720923 /* Main.storyboard */,
+				CE3F411220AD6AA5008991AA /* ImageViewController.swift */,
+				CE3FD5EB20ACC7BF00720923 /* CollectionViewCell.swift */,
 				CE3FD5C420ACC62F00720923 /* Assets.xcassets */,
 				CE3FD5C620ACC62F00720923 /* LaunchScreen.storyboard */,
 				CE3FD5C920ACC62F00720923 /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				CE3FD5C020ACC62C00720923 /* ViewController.swift in Sources */,
 				CE3FD5BE20ACC62C00720923 /* AppDelegate.swift in Sources */,
+				CE3F411320AD6AA5008991AA /* ImageViewController.swift in Sources */,
+				CE3FD5EC20ACC7BF00720923 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
