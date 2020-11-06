@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
 
-    var array1 = ["Manna","Munna","Shaon","Limon","Lalon"]
-    var array2 = [#imageLiteral(resourceName: "i4"),#imageLiteral(resourceName: "i5"),#imageLiteral(resourceName: "i1"),#imageLiteral(resourceName: "i3"),#imageLiteral(resourceName: "i2")]
+    var array1 = ["Manna","Munna","Shaon","Limon","Lalon","Motaleb"]
+    var array2 = [#imageLiteral(resourceName: "i4"),#imageLiteral(resourceName: "i5"),#imageLiteral(resourceName: "i1"),#imageLiteral(resourceName: "i3"),#imageLiteral(resourceName: "i2"),#imageLiteral(resourceName: "i1")]
     
     
     @IBOutlet weak var collectionView: UICollectionView!
@@ -43,7 +43,7 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
     
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-       return 1
+       return 10
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -65,3 +65,20 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
 
 }
 
+extension ViewController : UICollectionViewDelegateFlowLayout{
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let collectionViewWidth = collectionView.bounds.width
+        return CGSize(width: collectionViewWidth/3-2, height: collectionViewWidth/3-5)
+        
+    }
+  
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 2
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+          return 5
+      }
+    
+}

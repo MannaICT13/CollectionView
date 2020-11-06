@@ -32,7 +32,7 @@ class ImageViewController: UIViewController {
         
         if switch1.isOn{
             switchlabel.text = "Switch Is ON"
-            self.view.backgroundColor = UIColor.red
+            self.view.backgroundColor = UIColor.blue
         }
         else{
             self.view.backgroundColor = UIColor.white
