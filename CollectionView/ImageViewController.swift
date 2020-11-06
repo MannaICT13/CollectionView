@@ -16,26 +16,27 @@ class ImageViewController: UIViewController {
     @IBOutlet weak var switch1: UISwitch!
     
     @IBOutlet weak var switchlabel: UILabel!
+    
     var mainimg:UIImage!
     var mainlabel:String!
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         image.image = mainimg
         label.text = mainlabel
         
-
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func switchAction(_ sender: Any) {
         
         if switch1.isOn{
             switchlabel.text = "Switch Is ON"
-            self.view.backgroundColor = UIColor.blue
+            self.view.backgroundColor = UIColor.red
         }
         else{
             self.view.backgroundColor = UIColor.white
+              switchlabel.text = "Switch Is OFF"
             
         }
       
@@ -44,7 +45,6 @@ class ImageViewController: UIViewController {
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
 
